@@ -1,20 +1,19 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
-// export default async () => {
 let isRunning = true;
 let isOperationComplete = false;
 const UserDb = [
     {
-        UserId: 123,
-        UserName: "Asif Nawaz",
+        UserId: 1234,
+        UserName: "Muhammad Owais",
         Pin: 1234,
-        Balance: 1000
+        Balance: 5000
     },
     {
-        UserId: 456,
-        UserName: "Ali Nawaz",
+        UserId: 5678,
+        UserName: "Sohail Ahsan",
         Pin: 5678,
-        Balance: 2000
+        Balance: 8000
     }
 ];
 console.table(UserDb);
@@ -88,4 +87,3 @@ while (isRunning) {
         }
     }
 }
-// }
